@@ -8,6 +8,16 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "term": "painel",
+          "count": 4
+        }
+      }
+    },
+    {
       "__resolveType": "site/sections/Images/Carousel.tsx",
       "images": [
         {
@@ -44,25 +54,6 @@
           "alt": "Summer"
         }
       ]
-    },
-    {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "Featured Products",
-      "cta": "/mono",
-      "products": {
-        "__resolveType": "shopify/loaders/ProductList.ts",
-        "props": {
-          "sort": "",
-          "count": 12,
-          "query": "a"
-        },
-        "filters": {
-          "tags": [],
-          "productTypes": [],
-          "productVendors": [],
-          "variantOptions": []
-        }
-      }
     },
     {
       "__resolveType": "site/sections/Category/CategoryGrid.tsx",
